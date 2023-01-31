@@ -1,0 +1,23 @@
+{
+  "name": "isphnumber",
+  "version": "1.0.0",
+  "description": "Returns true if the given value is a Philippine number format",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denzel24/isphnumber.git"
+  },
+  "author": "Dennis Bersano",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/denzel24/isphnumber/issues"
+  },
+  "homepage": "https://github.com/denzel24/isphnumber#readme",
+  "devDependencies": {
+    "mocha": "*",
+    "should": ">= 0.0.1"
+  }
+}
