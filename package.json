@@ -1,6 +1,6 @@
 {
   "name": "isphnumber",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Returns true if the given value is a Philippine number format",
   "main": "index.js",
   "scripts": {
