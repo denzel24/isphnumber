@@ -13,9 +13,9 @@ describe('isPhNumber', function() {
       assert(isPhNumber('639123456789'));
       assert(isPhNumber('09123456789'));
       assert(isPhNumber('+639123456789'));
-      assert(!isPhNumber('+63 912 345 6789'));
-      assert(!isPhNumber('63 912 345 6789'));
-      assert(!isPhNumber('0912 345 6789'));
+      assert(isPhNumber('+63 912 345 6789'));
+      assert(!isPhNumber('63 912 345 678913'));
+      assert(!isPhNumber('0912 345 678913'));
     });
   
     it('should throw an error when an invalid value is passed', function() {

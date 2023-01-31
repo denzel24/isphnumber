@@ -1,7 +1,7 @@
 {
   "name": "isphnumber",
-  "version": "1.0.1",
-  "description": "Returns true if the given value is a Philippine number format",
+  "version": "1.0.2",
+  "description": "Returns true if the given value is a Philippine mobile number format",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha -w"

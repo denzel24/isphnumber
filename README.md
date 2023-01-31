@@ -20,6 +20,6 @@ console.log(isphnum('639123456789')); //=> true
 console.log(isphnum('09123456789')); //=> true
 console.log(isphnum('+639123456789')); //=> true
 
-console.log(isphnum('+63 912 345 6789')); //=> false
-console.log(isphnum('63 912 345 6789')); //=> false
+console.log(isphnum('+63 912 345 678913')); //=> false
+console.log(isphnum('63 912 345 678932')); //=> false
 ```
