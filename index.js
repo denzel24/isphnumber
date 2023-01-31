@@ -5,7 +5,7 @@ module.exports = function isPhNumber(value) {
         throw new TypeError('expected a value');
     }
     const n = value.toString();
-    const pattern = /(\+?\d{2}?\s?\d{3}\s?\d{3}\s?\d{4})|([0]\d{3}\s?\d{3}\s?\d{4})/g;
+    const pattern = /^(09|\+639|639)\d{9}$/gm;
     
     
     return n.match(pattern) ? true : false;
