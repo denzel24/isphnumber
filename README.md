@@ -1,5 +1,5 @@
 # isphnumber
-Returns true if the given value is a Philippine number format
+Returns true if the given value is a Philippine mobile number format
 
 ## Install
 
