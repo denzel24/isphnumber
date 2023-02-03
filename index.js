@@ -6,7 +6,7 @@ module.exports = function isPhNumber(value) {
     }
     let val = value.toString();
     const n = val.replace(/\s/g, ""); //remove white space
-    const pattern = /^(09|\+639|639)\d{9}$/gm;
+    const pattern = /^(09|08|\+639|639|\+638|638)\d{9}$/gm;
     
     return n.match(pattern) ? true : false;
 }

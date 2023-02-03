@@ -1,6 +1,6 @@
 # isphnumber
 Returns true if the given value is a Philippine mobile number format
-
+-Add latest phone code in the Philippines (DITO,GLOBE,TM)
 ## Install
 
 Install with [npm](https://www.npmjs.com/):
