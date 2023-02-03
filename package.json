@@ -6,6 +6,9 @@
   "scripts": {
     "test": "node_modules/.bin/mocha -w"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/denzel24/isphnumber.git"
